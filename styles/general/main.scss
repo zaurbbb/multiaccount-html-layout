@@ -1,0 +1,109 @@
+@import "variables";
+
+//export all fonts
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: local('MontserratBold'), url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratSemibold';
+  src: local('MontserratSemibold'), url('../fonts/Montserrat/Montserrat-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: local('MontserratRegular'), url('../fonts/Montserrat/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: local('MontserratMedium'), url('../fonts/Montserrat/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MontserratLight';
+  src: local('MontserratLight'), url('../fonts/Montserrat/Montserrat-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterBold';
+  src: local('InterBold'), url('../fonts/Inter/Inter-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterSemibold';
+  src: local('MontserratSemibold'), url('../fonts/Inter/Inter-Semibold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterRegular';
+  src: local('InterRegular'), url('../fonts/Inter/Inter-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterMedium';
+  src: local('InterMedium'), url('../fonts/Inter/Inter-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterLight';
+  src: local('InterLight'), url('../fonts/Inter/Inter-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  font-size: 16.00px;
+}
+
+body {
+  background: #F6F6F6;
+  font-family: 'MontserratLight', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.highlighted-text {
+  color: $burgundy;
+}
+
+.highlighted-link{
+    color: $burgundy;
+    text-decoration: underline;
+}
+
+@media (min-width: $xl) {
+  html{
+    font-size: 25.00px;
+  }
+}
+
+@media (min-width: $md) {
+  html {
+    font-size: 20.00px;
+  }
+}
