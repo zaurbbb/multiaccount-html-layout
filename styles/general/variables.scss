@@ -1,4 +1,4 @@
-//font-size
+//font size
 $fs1: 1.728rem;
 $fs2: 1.44rem;
 $fs3: 1.2rem;
@@ -6,19 +6,32 @@ $fs4: 1rem;
 $fs5: 0.833rem;
 $fs6: 0.694rem;
 
+//fonts
+$montserratLight: 'MontserratLight', sans-serif;
+$montserratRegular: 'MontserratRegular', sans-serif;
+$montserratMedium: 'MontserratMedium', sans-serif;
+$montserratSemiBold: 'MontserratSemiBold', sans-serif;
+$montserratBold: 'MontserratBold', sans-serif;
+$interLight: 'InterLight', sans-serif;
+$interRegular: 'InterRegular', sans-serif;
+$interMedium: 'InterMedium', sans-serif;
+$interSemiBold: 'InterSemiBold', sans-serif;
+$interBold: 'InterBold', sans-serif;
+
 //font-weight
 $fwB: 900;
 $fwM: 500;
 $fwR: 400;
 
 //colors
-$burgundy: #EA4256;
-$gray: #939393;
+$primary: #556EE6;
+$secondary: #2A3042;
+$dark: #000000;
 
 //media queries
 $xxl:  1400px;
 $xl:  1200px;
-$lg:  1000px;
+$lg:  992px;
 $md:  768px;
-$sm:  480px;
+$sm:  540px;
 $xs:  360px;

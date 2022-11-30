@@ -6,6 +6,7 @@
 ## Description
 
 Multiaccount is an antidetect browser to create an unlimited number of profiles
-Live demo of the landing page: https://zaurbbb.github.io/barter-html-coding/
+
+Live demo of the landing page: https://zaurbbb.github.io/multiaccount-html-coding/
 
 Figma design: [click here](https://www.figma.com/file/QLuVJskkHIhSIfpFU5Kb8t/Multiaccount.ru-~5000-7500?node-id=0%3A1)

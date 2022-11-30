@@ -1,7 +1,6 @@
 @import "variables";
 
 //export all fonts
-
 @font-face {
   font-family: 'MontserratBold';
   src: local('MontserratBold'), url('../fonts/Montserrat/Montserrat-Bold.ttf') format('truetype');
@@ -78,7 +77,7 @@ html {
 
 body {
   background: #F6F6F6;
-  font-family: 'MontserratLight', sans-serif;
+  font-family: 'MontserratRegular', sans-serif;
 }
 
 a {
@@ -87,23 +86,16 @@ a {
   cursor: pointer;
 }
 
-.highlighted-text {
-  color: $burgundy;
-}
-
-.highlighted-link{
-    color: $burgundy;
-    text-decoration: underline;
-}
-
-@media (min-width: $xl) {
-  html{
-    font-size: 25.00px;
-  }
-}
 
 @media (min-width: $md) {
   html {
     font-size: 20.00px;
+  }
+}
+
+
+@media (min-width: $xl) {
+  html{
+    font-size: 25.00px;
   }
 }

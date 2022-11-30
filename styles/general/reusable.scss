@@ -1,0 +1,46 @@
+@import "variables";
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  width: 7rem;
+  height: 1.8rem;
+
+  font-family: $montserratSemiBold;
+  font-size: $fs5;
+  background: none;
+  border: 1.6px solid transparent;
+  border-radius: 10px;
+
+  &-primary {
+    &-outline {
+      color: $primary;
+      border-color: $primary;
+    }
+  }
+
+  svg {
+    width: 14px;
+    height: 12px;
+  }
+}
+
+@media (min-width: $md) {
+  .button {
+    width: 8rem;
+
+    font-size: $fs5;
+  }
+}
+
+@media (min-width: $lg) {
+  .button {
+    width: 8.5rem;
+    height: 2rem;
+
+    font-size: $fs5;
+  }
+}

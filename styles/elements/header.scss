@@ -1,1 +1,99 @@
 @import "../general/variables";
+
+.c-header {
+  width: 100%;
+  padding: 0.5rem 0;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+
+    padding: 0 0.5rem;
+  }
+
+  &__logo, &__button, &__nav {
+    display: flex;
+    align-items: center;
+  }
+
+  //order used for alignment of header__top for mobile version
+  &__logo { order: 1; }
+
+  &__button {
+    order: 2;
+    justify-content: flex-end;
+  }
+
+  &__nav {
+    order: 3;
+    gap: 1rem;
+  }
+
+  &__link {
+    font-family: $montserratMedium;
+    font-size: $fs6;
+  }
+
+  &__svg {
+    width: 171px;
+    height: 18px;
+  }
+}
+
+@media (min-width: $sm) {
+  .c-header {
+    &__top { flex-wrap: nowrap; }
+
+    &__logo { order: 1; }
+
+    &__nav {
+      order: 2;
+      justify-content: flex-end;
+
+      width: 50%;
+    }
+
+    &__button { order: 3; }
+  }
+}
+
+@media (min-width: $md) {
+  .c-header {
+    &__link { font-size: $fs5; }
+
+    &__svg {
+      width: 200px;
+      height: 20px;
+    }
+  }
+}
+
+@media (min-width: $xl) {
+  .c-header {
+    padding: 2rem 0;
+
+    &__top { gap: 2rem; }
+
+    &__nav {
+      gap: 1.4rem;
+
+      width: 60%;
+    }
+
+    &__link { font-size: $fs4; }
+
+    &__svg {
+      width: 340px;
+      height: 35px;
+    }
+  }
+}
+
+@media (min-width: $xxl) {
+  .c-header {
+    &__top { padding: 0 5rem; }
+  }
+}
